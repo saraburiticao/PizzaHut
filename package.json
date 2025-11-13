@@ -1,0 +1,33 @@
+{
+  "name": "pizzahut",
+  "version": "1.0.0",
+  "description": "Mi nuevo proyecto Pizza Hut - Proyecto de prueba con Cursor y Git",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:happy": "playwright test --grep \"Happy Path\"",
+    "test:fail": "playwright test --grep \"Fail Path\"",
+    "test:edge": "playwright test --grep \"Edge Cases\"",
+    "test:security": "playwright test --grep \"Seguridad\"",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen https://www.pizzahut.com.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saraburiticao/PizzaHut.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/saraburiticao/PizzaHut/issues"
+  },
+  "homepage": "https://github.com/saraburiticao/PizzaHut#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  }
+}
